@@ -1,0 +1,44 @@
+{
+  "name": "clawbeige-theme",
+  "displayName": "ClawBeige",
+  "description": "Thème clair beige/crème inspiré de Claude — fond chaud, accents rust/terracotta.",
+  "version": "1.0.1",
+  "publisher": "benoitraphael",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benoitraphael/clawbeige-theme"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benoitraphael/clawbeige-theme/issues"
+  },
+  "homepage": "https://github.com/benoitraphael/clawbeige-theme#readme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "ClawBeige",
+        "uiTheme": "vs",
+        "path": "./themes/ClawBeige-color-theme.json"
+      },
+      {
+        "label": "ClawBeige Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ClawBeige-Dark-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[ClawBeige]": {
+        "editor.fontFamily": "'Geist Mono', 'SF Mono', 'Fira Code', monospace",
+        "editor.fontSize": 13,
+        "editor.lineHeight": 22,
+        "editor.fontLigatures": true
+      }
+    }
+  }
+}
