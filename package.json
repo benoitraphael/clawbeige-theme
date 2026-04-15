@@ -2,7 +2,7 @@
   "name": "clawbeige-theme",
   "displayName": "ClawBeige",
   "description": "Thème clair beige/crème inspiré de Claude — fond chaud, accents rust/terracotta.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "benoitraphael",
   "engines": {
     "vscode": "^1.70.0"
