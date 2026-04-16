@@ -2,8 +2,17 @@
   "name": "clawbeige-theme",
   "displayName": "ClawBeige",
   "description": "Warm beige VSCode theme inspired by Claude Desktop — light & dark variants, terracotta accents.",
-  "keywords": ["claude", "anthropic", "beige", "warm", "dark", "light", "terracotta", "minimal"],
-  "version": "1.0.5",
+  "keywords": [
+    "claude",
+    "anthropic",
+    "beige",
+    "warm",
+    "dark",
+    "light",
+    "terracotta",
+    "minimal"
+  ],
+  "version": "1.0.6",
   "publisher": "benoitraphael",
   "engines": {
     "vscode": "^1.70.0"
