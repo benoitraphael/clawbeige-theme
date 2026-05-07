@@ -1,7 +1,7 @@
 {
   "name": "clawbeige-theme",
   "displayName": "ClawBeige",
-  "description": "Warm beige VSCode theme inspired by Claude Desktop — light & dark variants, terracotta accents.",
+  "description": "Warm beige theme inspired by Claude Desktop — soft beige tones, terracotta accents, light & dark variants. Tuned for prose writing: Inter for Markdown, JetBrains Mono for code (install via `brew install --cask font-inter font-jetbrains-mono`).",
   "keywords": [
     "claude",
     "anthropic",
@@ -12,7 +12,7 @@
     "terracotta",
     "minimal"
   ],
-  "version": "1.0.6",
+  "version": "1.1.0",
   "publisher": "benoitraphael",
   "engines": {
     "vscode": "^1.70.0"
@@ -45,10 +45,29 @@
     ],
     "configurationDefaults": {
       "[ClawBeige]": {
-        "editor.fontFamily": "'Geist Mono', 'SF Mono', 'Fira Code', monospace",
+        "editor.fontFamily": "'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace",
         "editor.fontSize": 13,
         "editor.lineHeight": 22,
         "editor.fontLigatures": true
+      },
+      "[markdown]": {
+        "editor.fontFamily": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif",
+        "editor.fontSize": 13,
+        "editor.lineHeight": 22,
+        "editor.fontLigatures": false,
+        "editor.wordWrap": "on"
+      },
+      "[plaintext]": {
+        "editor.fontFamily": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif",
+        "editor.fontSize": 13,
+        "editor.lineHeight": 22,
+        "editor.wordWrap": "on"
+      },
+      "[mdx]": {
+        "editor.fontFamily": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif",
+        "editor.fontSize": 13,
+        "editor.lineHeight": 22,
+        "editor.wordWrap": "on"
       }
     }
   }
